@@ -46,6 +46,9 @@ API service for cinema management written on DRF
 - create user via /api/user/register/
 - get access token via /api/user/token/
 
+# Endpoints
+![Example of endpoints ](Example%20endpoints.jpg)
+
 # Features
 
 - JWT authenticated
