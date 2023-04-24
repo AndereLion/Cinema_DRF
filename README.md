@@ -7,17 +7,28 @@ API service for cinema management written on DRF
 - git clone https://github.com/AndereLion/Cinema_DRF
 - cd cinema-API
 - python -m venv venv
-- source venv/bin/activate
-- pip install -r requirements.txt
 
 # Setup db
 
-- set POSTGRES_HOST=your_db_hostname
-- set POSTGRES_DB=your_db_name
-- set POSTGRES_USER=your_db_username
-- set POSTGRES_PASSWORD=your_db_user_password
-- set SECRET_KEY=your_secret_key
-- set DEBUG=True
+##### Для Linux:
+- source venv/bin/activate
+- pip install -r requirements.txt
+- export POSTGRES_HOST=your_db_hostname
+- export POSTGRES_DB=your_db_name
+- export POSTGRES_USER=your_db_username
+- export POSTGRES_PASSWORD=your_db_user_password
+- export SECRET_KEY=your_secret_key
+- export DEBUG=True
+
+#### Для Windows:
+- venv\Scripts\activate
+- pip install -r requirements.txt
+- set POSTGRES_HOST your_db_hostname
+- set POSTGRES_DB your_db_name
+- set POSTGRES_USER your_db_username
+- set POSTGRES_PASSWORD your_db_user_password
+- set SECRET_KEY your_secret_key
+- set DEBUG True
 
 # Run server
 
