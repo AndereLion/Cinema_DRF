@@ -17,6 +17,7 @@ API service for cinema management written on DRF
 - set POSTGRES_USER=your_db_username
 - set POSTGRES_PASSWORD=your_db_user_password
 - set SECRET_KEY=your_secret_key
+- set DEBUG=True
 
 # Run server
 
